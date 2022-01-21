@@ -1,0 +1,61 @@
+body {
+   background-image: url("images/sfondo.jpg");
+   background-repeat: no-repeat;
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 25px;
+}
+
+h1 {
+ color: red;
+ font-family: fantasy;
+}
+
+.object {
+    height: 200px; 
+    width: 100px;
+}
+
+.object.dragging {
+    color: red;
+}
+
+.target {
+    height: 300px;
+    width: 350px;
+    padding: 5px;
+    border: solid;
+}
+
+.stats {
+    position: absolute;
+    top: 200px;
+    right: 650px;
+    height: 270px;
+    width: 150px;
+    border: solid;
+    font-size: small;
+    background-color: seagreen;
+    font-family: fantasy;
+}
+
+#negozio {
+position: absolute;
+top: 150px;
+background-color: white;
+}
+
+#mikasa {
+position: absolute;
+right: 350px;
+}
+
+#zaino {
+position: absolute;
+top: 150px;    
+right: 10px;
+background-color: white;
+}
+
+
+
